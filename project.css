@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5rem;
+}
 body{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -12,7 +17,7 @@ div.main-body {
 
 #navbar {
     position: fixed;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 20%;
     box-sizing: border-box;
 }
@@ -27,10 +32,16 @@ div.main-body {
     text-align: center;
 }
 
+#navbar a:hover {
+	color: rgb(255, 255, 255);
+	background-color: rgb(1, 13, 57);
+}
+
 main#main-doc {
 	grid-area: mainContent;
     border: 1px solid black;
     padding: 10px;
+
 }
 
 header {
